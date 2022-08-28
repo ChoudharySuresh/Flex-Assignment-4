@@ -1,0 +1,37 @@
+body{
+    color: white;
+    background-color: rgb(242, 242, 242);
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 18rem;
+}
+.header{
+    padding: 13px;
+    width: 30rem;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: blueviolet;
+    gap:1.5rem;
+}
+.header_nav{
+    margin-left: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.header_nav button{
+    color: white;
+    background-color: transparent;
+    border: none;
+    transition: 1s;
+}
+.header_nav button:hover{
+    cursor: pointer;
+    color: aquamarine;
+}
+.fa-bars:hover{
+    cursor: pointer;
+    color: aquamarine;
+}
